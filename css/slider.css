@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* =======================================
+ Slide
+======================================= */
+
+body {
+  background: #f0f0f0;
+  min-width: 1000px;
+}
+
+.top-slider {
+  margin: auto;
+}
+
+.slick-slide img {
+  opacity: 0.8;
+}
+
+.slick-slide.slick-current img {
+  opacity: 1;
+}

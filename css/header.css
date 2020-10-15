@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* =======================================
+ header
+======================================= */
+body {
+  min-width: 1000px;
+}
+
+.header {
+  background: url("../img/header_bg.jpg") no-repeat center top;
+  border-bottom: 2px solid #808080;
+  height: 180px;
+  margin: 0 auto;
+  padding-top: 48px;
+  width: 100%;
+}
+
+.logo {
+  margin: 0 auto 18px;
+  width: 170px;
+}
+
+.nav {
+  display: -ms-flex;
+  -ms-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 16px;
+  width: 1000px;
+}
+
+.nav li,
+.nav li a {
+  display: block;
+}

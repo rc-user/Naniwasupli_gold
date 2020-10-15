@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* =======================================
+ reset補完
+======================================= */
+html {
+  cursor: inherit;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, dl, dt, dd, ul, ol, li {
+  font-size: 100%;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+/* =======================================
+ base style
+======================================= */
+body {
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+  font-family: "メイリオ", Meiryo, Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+  line-height: 1;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  color: #9baa1e;
+}
+a:hover img {
+  opacity: 0.8;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.inner {
+  margin: auto;
+  width: 1000px;
+}
